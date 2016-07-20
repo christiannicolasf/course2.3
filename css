@@ -1,0 +1,270 @@
+# course2.3
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    color: #34495;
+    position: relative;
+}
+
+.cocu {
+	    text-transform: uppercase;
+
+}
+.cocu a {
+	color: beige;
+	padding: 0px 0px 0px 20px;
+    	transition: color 600ms;
+    	webkit-transition: color 600ms;
+    	text-decoration: none;
+ }
+
+.cocu a:hover {
+    color: darkred;
+    font-weight: 500;
+}
+
+.cocu img {
+	max-width:100%;
+   	max-height: 100%;
+   	margin: -5px 10px 0px 0px;
+}
+
+.navbar ul {
+    margin: 0px 20px 0px 0px;
+}
+
+.navbar ul li {
+	text-transform: uppercase;
+	font-size: 1.5em;
+}
+
+.anchor {
+  padding-top: 51px;
+}
+
+/*.navbar ul li a {
+    letter-spacing: 0.05em;
+    transition: color 600ms;
+    -webkit-transition: color 600ms;
+     font-size: 2em;
+}*/
+
+.carousel {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+/*Typography*/
+
+h1, h2, h3 {
+    font-family: Futura, Helvetica, Arial, sans-serif;
+}
+p, li {
+    font-family: Geogia, Times New Roman, serif;
+}
+.intro p {
+    font-family: Futura, Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    font-weight: 100;
+    -webkit-margin-before: 0;
+}
+.skills h3 {
+    text-align: left;
+    text-transform: uppercase;
+}
+
+
+/*INDEX PAGE*/
+
+#index1, #index2 {
+    margin-left: 40px;
+}
+
+#index1 p2 {
+	color: darkred;
+	display: block;
+}
+
+.row img {
+        max-width:100%;
+        max-height: 100%;
+}
+
+#index2 h2 {
+        text-align: center;
+}
+
+.row h2{
+    padding-right: 40px;
+}
+
+.btn-default {
+    align-items: center;
+}
+
+#index2{
+    background: url(../img/sky.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0px -15px 0px -15px;
+}
+
+
+/*ABOUT PAGE*/
+
+.header h1 {
+    text-align: left;
+    margin: 20px;
+    padding: 30px 0px 0px 0px;
+    font-family: Brush Script MT, Helvetica, Arial, sansserif;
+}
+
+.main-text {
+    clear: both;
+    padding: 10px 10px 10px 20px;
+    background: beige;
+    color: black;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.row {
+    margin: 0px 0px 0px 30px;
+}
+
+#about img{
+        border-radius: 25px;
+}
+
+/*** Contact Page ***/
+
+#contact {
+    background: url(../img/about.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0px -15px 0px -15px;
+}
+
+.contactinfo {
+    color: white;
+    display: block;
+    text-align: left;
+}
+
+.contactinfo h1{
+	margin: 0px;
+}
+
+.contactp {
+    margin: 50px 0px 0px 0px;
+}
+.email {
+    text-align: left;
+    color: white;
+    margin: 50px 0px 70px 0px;
+}
+.email p2 {
+    display: block;
+}
+.email a {
+    color: #ffff66;
+}
+.glyphicon-fire {
+    color: darkred;
+}
+.glyphicon-envelope:hover {
+    color: darkred;
+}
+
+.form-control {
+    width: 80%;
+    margin: 10px 0px;
+}
+
+
+.form-group {
+    color: black;
+}
+
+#button {
+    background: beige;
+}
+
+#columnforms{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#labeltextbox {
+    color: white;
+}
+
+/*** FAQ ***/
+
+#modalembed {
+    height: 500px;
+    width: 100%;
+    padding: 10px;
+}
+
+.row p2 {
+    font-weight: 900;
+}
+.row {
+    padding: 0px 0px 10px 0px;
+    margin: 0px 20px;
+}
+.row h1 {
+    color: darkred;
+    margin-bottom: -3px;
+}
+
+.learn-more {
+    text-align: left;
+    float: left;
+}
+
+.modal-button{
+    float: right;
+    padding: 30px 0px 10px 0px;
+}
+
+.close{
+    display: inline-block;
+/*    text-align: right;*/
+}
+
+.modal-title{
+    display: inline-block;
+}
+
+.panel-heading h4 {
+    color: darkred;
+    font-weight: bold;
+}
+.glyphicon-plus {
+    color: black;
+}
+
+footer{
+    padding: 10px 0px;
+
+}
+
+footer p{
+    float: left;
+}
+
+.twitter {
+        margin: 0px 20px;
+        float: left;
+}
